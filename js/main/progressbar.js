@@ -16,7 +16,7 @@
             $('#progress_bar').css('background-color','black');
             // $('#menubtn').css('color','black');
         }
-        console.log($('#section1').offset().left);
+        // console.log($('#section1').offset().left);
       });
 
 
