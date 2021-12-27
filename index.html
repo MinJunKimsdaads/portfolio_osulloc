@@ -15,14 +15,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.js"
     integrity="sha512-vWutwDjKJo+VMAA7IrS/ICTmVYXRMdqtXA27MSuPxGjkbYnKeUKPrIpfsAwIXCzaSDF/qRy/L85ko/yxW0AIiA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js" integrity="sha512-zMfrMAZYAlNClPKjN+JMuslK/B6sPM09BGvrWlW+cymmPmsUT1xJF3P4kxI3lOh9zypakSgWaTpY6vDJY/3Dig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel='stylesheet' href='./css/common/common.css'>
     <link rel='stylesheet' href='./css/main/1024px.css'>
-    <!-- <script type='text/javascript' src='./js/main/jquery.easeScroll.js'></script> -->
     <script src='./js/main/main.js' defer></script>
     <script src='./js/main/progressbar.js' defer></script>
     <script src='./js/main/menu.js' defer></script>
     <script src='./js/main/video.js' defer></script>
-    <!-- <script src="./js/main/jquery-momentum-scroll.js"></script> -->
+    <script src='./js/main/section2.js' defer></script>
 </head>
 <body>
         <div id='container'>
@@ -54,15 +54,69 @@
                     <div id='section2'>
                         <div class='wrap wrap2'>
                             <div id='section2_box'>
-                                <div class='section2_content section2_content1'></div>
-                                <div class='section2_content section2_content2'></div>
-                                <div class='section2_content section2_content3'></div>
-                                <div class='section2_content section2_content4'></div>
-                                <div class='section2_content section2_content5'></div>
-                                <div class='section2_content section2_content6'></div>
-                                <div class='section2_content section2_content7'></div>
-                                <div class='section2_content section2_content8'></div>
-                                <div class='section2_content section2_content9'></div>
+                                <div class='section2_content section2_content1' style="background-image: url(./image/main/section2/1.jpg)">
+                                    <div class='bg bg1'></div>
+                                    <i class="far fa-times-circle"></i>
+                                    <i class="far fa-cloud-drizzle"></i>
+                                    <p>최대 공극률 75%<br>화산희토</p>
+                                    <p class="detail detail1">제주에만 존재하는 다공성 현무암 자갈돌이 토양의 물리적 특성을 개선하여 보다 좋은 찻잎을 자라게 합니다.</p>
+                                </div>
+                                <div class='section2_content section2_content2' style="background-image: url(./image/main/section2/2.jpg)">
+                                    <div class='bg bg2'></div>
+                                    <i class="far fa-times-circle"></i>
+                                    <i class="fal fa-seedling"></i>
+                                    <p>129,600분<br>녹차 싹이 녹차로 자라는 시간</p>
+                                    <p class="detail detail2">제주바다의 수분을 머금은 바닷바람이 밤낮으로 불어오는 제주 차밭에서는 향이 좋은 녹차가 자랍니다.</p>
+                                </div>
+                                <div class='section2_content section2_content3' style="background-image: url(./image/main/section2/3.jpg)">
+                                    <div class='bg bg3'></div>
+                                    <i class="far fa-times-circle"></i>
+                                    <i class="far fa-hourglass"></i>
+                                    <p>394,200시간<br>아름다운 집념</p>
+                                    <p class="detail detail3">394,200시간은 천혜의 자연환경을 가진 차 재배지로 거듭나기까지 45여 년이라는 오설록의 아름다운 집념의 시간입니다.</p>
+                                </div>
+                                <div class='section2_content section2_content4' style="background-image: url(./image/main/section2/4.jpg)">
+                                    <div class='bg bg4'></div>
+                                    <i class="far fa-times-circle"></i>
+                                    <i class="far fa-user-friends"></i>
+                                    <p>150여만명<br>티뮤지엄 연간 관람객</p>
+                                    <p class="detail detail4">티뮤지엄 개관이래 연간 방문객 수는 점차 증가하여 2015년 기준 연간 방문객 수는 150여만 명이 되었습니다.</p>
+                                </div>
+                                <div class='section2_content section2_content5' style="background-image: url(./image/main/section2/5.jpg)">
+                                    <div class='bg bg5'></div>
+                                    <i class="far fa-times-circle"></i>
+                                    <i class="far fa-coffee"></i>
+                                    <p>60초<br>차를 기다리는 잠깐의 여유</p>
+                                    <p class="detail detail5">차를 재배하는 데에도 시간과 정성이 필요하지만 차를 우려내는 시간과 정성에 따라서도 차의 맛과 향은 달라집니다.</p>
+                                </div>
+                                <div class='section2_content section2_content6' style="background-image: url(./image/main/section2/6.jpg)">
+                                    <div class='bg bg6'></div>
+                                    <i class="far fa-times-circle"></i>
+                                    <i class="fal fa-raindrops"></i>
+                                    <p>연평균 해무 발생일수 25일<br>지혜롭게 거리두기</p>
+                                    <p class="detail detail6">바다로 둘러싸인 제주는 연간 안개 발생일수가 25일로 녹차나무에 자연 차광 효과를 주어<br> 여린 잎 본연의 맛과 색을 살려서 최고 품질의 녹차를 탄생시킵니다.</p>
+                                </div>
+                                <div class='section2_content section2_content7' style="background-image: url(./image/main/section2/7.jpg)">
+                                    <div class='bg bg7'></div>
+                                    <i class="far fa-times-circle"></i>
+                                    <i class="fas fa-wind"></i>
+                                    <p>연평균 초속 4~7m<br>바람의 섬</p>
+                                    <p class="detail detail7">연평균 초속 4~7m의 거센 바람이 불어와 뿌리의 수분 흡수를 증가시켜 녹차의 향기를 짙게 만듭니다.</p>
+                                </div>
+                                <div class='section2_content section2_content8' style="background-image: url(./image/main/section2/8.jpg)">
+                                    <div class='bg bg8'></div>
+                                    <i class="far fa-times-circle"></i>
+                                    <i class="far fa-sun"></i>
+                                    <p>연평균 기온 16도<br>명품 녹차 탄생 온도</p>
+                                    <p class="detail detail8">연평균 16ºC 인 제주에서 오설록의 녹차는 사계절 내내 따뜻한 빛을 품고 자라 최고의 명품녹차로 자라게 됩니다.</p>
+                                </div>
+                                <div class='section2_content section2_content9' style="background-image: url(./image/main/section2/9.jpg)">
+                                    <div class='bg bg9'></div>
+                                    <i class="far fa-times-circle"></i>
+                                    <i class="far fa-mountains"></i>
+                                    <p>200m<br>오설록 차밭의 해발 높이</p>
+                                    <p class="detail detail9">해발 200미터에 자리잡고 있는 오설록 차밭은 낮에는 습도가 높은 더운 바닷바람이 바다에서 산으로 불고,<br> 밤에는 습도가 낮고 시원한 산바람이 산에서 바다로 불어와 녹차의 향기를 더욱 짙게 만들어 줍니다.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -71,32 +125,45 @@
                         <div class='wrap wrap3'>
                             <div class='section3_box section3_box1'>
                                 <div class='section3_content section3_content1'>
-                                    <!-- <svg class='section3_img section3_img1'>
-                                        <mask id="svgmask1">
-                                            <rect width='100' height='100' fill="#ffffff"></rect>
-                                            <rect class="clip clip2" width='100' height='100' fill="white"></rect>
-                                            <rect class="clip clip3" width='100' height='100'></rect>
-                                            <rect class="clip clip4" width='100' height='100'></rect>
-                                            <path d="M10,35 A20,20,0,0,1,50,35 A20,20,0,0,1,90,35 Q90,65,50,95 Q10,65,10,35 Z" fill="black" />
-                                            <polygon fill="#ffffff" points="200 0, 400 400, 0 400"></polygon>
-                                        </mask>
-                                        <image xlink:href="./image/main/test1.jpg" mask="url(#svgmask1)" width='100%' height='100%'></image>
-                                    </svg> -->
+                                    <svg class='section3_img section3_img1'>
+                                        <image xlink:href='./image/main/test1.jpg'></image>
+                                    </svg>
                                 </div>
-                                <div class='section3_menu section3_menu1'></div>
-                                <div class='section3_menu section3_menu1'></div>
+                                <div class='section3_menu section3_menu1'>
+                                    <div class='section3_menu_description section3_menu_description1'>
+                                        <p>일</p>
+                                        <p>구</p>
+                                        <p>다</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class='section3_box section3_box2'>
                                 <div class='section3_content section3_content2'>
-                                    <svg class='section3_img section3_img2'></svg>
+                                    <svg class='section3_img section3_img2'>
+                                        <image xlink:href='./image/main/test1.jpg'></image>
+                                    </svg>
                                 </div>
-                                <div class='section3_menu section3_menu2'></div>
+                                <div class='section3_menu section3_menu2'>
+                                    <div class='section3_menu_description section3_menu_description2'>
+                                        <p>가</p>
+                                        <p>꾸</p>
+                                        <p>다</p>    
+                                    </div>
+                                </div>
                             </div>
                             <div class='section3_box section3_box3'>
                                 <div class='section3_content section3_content3'>
-                                    <svg class='section3_img section3_img3'></svg>
+                                    <svg class='section3_img section3_img3'>
+                                        <image xlink:href='./image/main/test2.jpg'></image>
+                                    </svg>
                                 </div>
-                                <div class='section3_menu section3_menu3'></div>
+                                <div class='section3_menu section3_menu3'>
+                                    <div class='section3_menu_description section3_menu_description3'>
+                                        <p>즐</p>
+                                        <p>기</p>
+                                        <p>다</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div id='teaground'></div>

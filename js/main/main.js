@@ -8,7 +8,7 @@ var animation1 =  new TimelineMax();
                     .to('#section_container',3,{left:'-80%'})
                     .to('#section_container',3,{left:'-90%'})
                     .to('#menubtn',0.5,{color:'white'})
-                    .to('#section_container',10,{left:'-120%'})
+                    .to('#section_container',3,{left:'-120%'})
                     .to('#menubtn',0.5,{color:'black'})
                     .to('#section_container',5,{left:'-140%'})
                     .to('#section_container',5,{left:'-180%'})
