@@ -407,8 +407,93 @@
         top: 20%;
         left: 15%;
         z-index: 1;
-        background-color: brown;
+        /* display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-around; */
+        /* background-color: brown; */
     }
+
+    #teaground_box1 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #teaground_teabox {
+        width: 100%;
+        /* background-color: gray; */
+    }
+
+    #teaground_teabox h1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        color: white;
+        /* background-color: pink; */
+    }
+
+    #teaground_teabox p {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        /* background-color: pink; */
+    }
+
+    #teaground_arrow {
+        height: 30%;
+        width: 100%;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: gray; */
+        text-align: center;
+        color: white;
+    }
+
+    #teaground_arrow i {
+        animation-name: arrowmove;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+    }
+
+    #teaground_arrow:hover {
+        cursor: pointer;
+    }
+
+    @keyframes arrowmove {
+        to {
+            margin-top: 20px;
+        }
+    }
+
+    #teaground_description {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: pink;
+        opacity: 0;
+    }
+
+    
 
     #mymenu {
         width: 100%;

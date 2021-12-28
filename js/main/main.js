@@ -19,6 +19,8 @@ var animation1 =  new TimelineMax();
                     .to('.section3_box2',5,{left:'-88%'})
                     .to('.section3_box3',5,{left:'-85%'})
                     .to('.section3_box1,.section3_box2,.section3_box3',5,{left:'-94%'})
+                    .to('#teaground_teabox,#teaground_arrow ',5,{opacity:'0'})
+                    .to('#teaground_description ',5,{opacity:'1'})
                     .to('#section_container',10,{left:'-330%'})
                     // .to('#section2',3,{left:'0'})
 
