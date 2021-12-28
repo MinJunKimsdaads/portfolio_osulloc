@@ -23,6 +23,7 @@
     <script src='./js/main/menu.js' defer></script>
     <script src='./js/main/video.js' defer></script>
     <script src='./js/main/section2.js' defer></script>
+    <script src='./js/main/section3.js' defer></script>
 </head>
 <body>
         <div id='container'>
@@ -125,9 +126,19 @@
                         <div class='wrap wrap3'>
                             <div class='section3_box section3_box1'>
                                 <div class='section3_content section3_content1'>
-                                    <svg class='section3_img section3_img1'>
-                                        <image xlink:href='./image/main/test1.jpg'></image>
+                                    <svg class='section3_img section3_img1' id='section3img1'>
+                                          <mask id="svgmask1">
+                                            <rect class='test1' style="fill:#ffffff;" />
+                                            <rect class='test2' style="fill:#ffffff;" />
+                                            <rect class='test3' style="fill:#ffffff;" />
+                                            <rect class='test4' style="fill:#ffffff;" />
+                                          </mask>
+                                        <image xlink:href='./image/main/section3/section3_1.png' mask="url(#svgmask1)" class='gray'></image>
                                     </svg>
+                                    <div class='section3_description section3_description1' id='section3description1'>
+                                        saadssadadsadsadsadadsdd
+
+                                    </div>
                                 </div>
                                 <div class='section3_menu section3_menu1'>
                                     <div class='section3_menu_description section3_menu_description1'>
@@ -139,9 +150,18 @@
                             </div>
                             <div class='section3_box section3_box2'>
                                 <div class='section3_content section3_content2'>
-                                    <svg class='section3_img section3_img2'>
-                                        <image xlink:href='./image/main/test1.jpg'></image>
+                                    <svg class='section3_img section3_img2' id='section3img2'>
+                                        <mask id="svgmask2">
+                                            <rect class='test1' style="fill:#ffffff;" />
+                                            <rect class='test2' style="fill:#ffffff;" />
+                                            <rect class='test3' style="fill:#ffffff;" />
+                                            <rect class='test4' style="fill:#ffffff;" />
+                                          </mask>
+                                        <image xlink:href='./image/main/section3/section3_1.png' mask="url(#svgmask2)" class='gray'></image>
                                     </svg>
+                                    <div class='section3_description section3_description2' id='section3description2'>
+                                        <p>dasasd</p>
+                                    </div>
                                 </div>
                                 <div class='section3_menu section3_menu2'>
                                     <div class='section3_menu_description section3_menu_description2'>
@@ -152,10 +172,19 @@
                                 </div>
                             </div>
                             <div class='section3_box section3_box3'>
-                                <div class='section3_content section3_content3'>
+                                <div class='section3_content section3_content3' id='section3img3'>
                                     <svg class='section3_img section3_img3'>
-                                        <image xlink:href='./image/main/test2.jpg'></image>
+                                        <mask id="svgmask3">
+                                            <rect class='test1' style="fill:#ffffff;" />
+                                            <rect class='test2' style="fill:#ffffff;" />
+                                            <rect class='test3' style="fill:#ffffff;" />
+                                            <rect class='test4' style="fill:#ffffff;" />
+                                          </mask>
+                                        <image xlink:href='./image/main/section3/section3_1.png' mask="url(#svgmask3)" class='gray'></image>
                                     </svg>
+                                    <div class='section3_description section3_description3' id='section3description3'>
+                                        
+                                    </div>
                                 </div>
                                 <div class='section3_menu section3_menu3'>
                                     <div class='section3_menu_description section3_menu_description3'>
@@ -166,7 +195,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div id='teaground'></div>
+                        <div id='teaground'>
+                            <div id='teaground_teabox'>
+                                <h1>오설록 차밭 이야기</h1>
+                            </div>
+                        </div>
                     </div>
                     <div id='section4'>
                         <div class='wrap wrap4'></div>
@@ -177,6 +210,9 @@
             <div id='mymenu' class='menu'>
     
             </div>
+            <canvas class="circle" id='circle' width="200" height="200">
+                
+            </canvas>
         </div>
 </body>
 </html>
