@@ -38,7 +38,7 @@
         animation-name: rotate1;
         animation-iteration-count: 1;
         animation-duration: 1s;
-        animation-fill-mode:forwards;
+        /* animation-fill-mode:forwards; */
     }
 
     @keyframes rotate1 {
@@ -198,12 +198,13 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        overflow: hidden;
         /* background-color: purple; */
     }
 
     .section2_content {
-        width: 320px;
-        height: 215px;
+        width: 31%;
+        height: 30%;
         position: relative;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -218,7 +219,7 @@
 
     .bg {
         content: "";
-        opacity: 0.2;
+        opacity: 0.3;
         position: absolute;
         width: 100%;
         height: 100%;
@@ -260,9 +261,10 @@
 
     .section2_content .detail {
         display: none;
-        font-size: 16px;
+        font-size: 14px;
         justify-self: center;
         align-self: center;
+        font-size: 20px;
     }
 
     .section2_content:hover{
@@ -493,6 +495,50 @@
         opacity: 0;
     }
 
+    .wrap4 {
+        /* background-color: pink; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4_video {
+        width: 50%;
+        height: 100%;
+        /* background-color: gray; */
+    }
+
+    .test5 {
+        width:20%;
+        height:80%;
+        x:0%;
+        y:5%;
+    }
+
+    .test6 {
+        width:20%;
+        height:80%;
+        x:25%;
+        y:0%;
+        y:15.5%;
+    }
+
+    .test7 {
+        width:20%;
+        height:80%;
+        x:55%;
+        y:0%;
+        y:15.5%;
+    }
+
+    .test8 {
+        width:20%;
+        height:80%;
+        x:80%;
+        y:0%;
+        y:26%;
+    }
+
     
 
     #mymenu {
@@ -507,6 +553,19 @@
     }
 
     .circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* width: 200px;
+        height: 200px; */
+        /* border-radius: 50%; */
+        /* background-color: #ee6c4d; */
+        transform: translate(-50%, -50%);
+        z-index: 300;
+        display: none;
+    }
+
+    .circle2 {
         position: absolute;
         top: 0;
         left: 0;

@@ -21,10 +21,13 @@
     <script src='./js/main/main.js' defer></script>
     <script src='./js/main/progressbar.js' defer></script>
     <script src='./js/main/menu.js' defer></script>
-    <script src='./js/main/video.js' defer></script>
+    <!-- <script src='./js/main/video.js' defer></script> -->
     <script src='./js/main/section2.js' defer></script>
     <script src='./js/main/section3.js' defer></script>
     <script src='./js/main/teaground.js' defer></script>
+    <!-- <script src='./js/main/scrooth.js'defer></script> -->
+    <!-- <script src='./js/main/inertiascroll.js' defer></script> -->
+    <script src='./js/main/section4.js' defer></script>
 </head>
 <body>
         <div id='container'>
@@ -45,7 +48,7 @@
 
             <div id='parallax' class="scrollableElement">
                 <div id='videobox'>
-                    <video src="./image/main/test.mp4" autoplay muted loop id='video'></video>
+                    <video src="./image/main/bg1.mp4" autoplay muted loop id='video'></video>
                 </div>
 
                 <div id='section_container'>
@@ -58,66 +61,57 @@
                             <div id='section2_box'>
                                 <div class='section2_content section2_content1' style="background-image: url(./image/main/section2/1.jpg)">
                                     <div class='bg bg1'></div>
-                                    <i class="far fa-times-circle"></i>
                                     <i class="far fa-cloud-drizzle"></i>
                                     <p>최대 공극률 75%<br>화산희토</p>
-                                    <p class="detail detail1">제주에만 존재하는 다공성 현무암 자갈돌이 토양의 물리적 특성을 개선하여 보다 좋은 찻잎을 자라게 합니다.</p>
+                                    <p class="detail detail1">제주에만 존재하는 다공성 현무암 자갈돌이<br> 토양의 물리적 특성을 개선하여 보다 좋은 찻잎을 자라게 합니다.</p>
                                 </div>
                                 <div class='section2_content section2_content2' style="background-image: url(./image/main/section2/2.jpg)">
                                     <div class='bg bg2'></div>
-                                    <i class="far fa-times-circle"></i>
                                     <i class="fal fa-seedling"></i>
                                     <p>129,600분<br>녹차 싹이 녹차로 자라는 시간</p>
-                                    <p class="detail detail2">제주바다의 수분을 머금은 바닷바람이 밤낮으로 불어오는 제주 차밭에서는 향이 좋은 녹차가 자랍니다.</p>
+                                    <p class="detail detail2">제주바다의 수분을 머금은 바닷바람이 밤낮으로<br> 불어오는 제주 차밭에서는 향이 좋은 녹차가 자랍니다.</p>
                                 </div>
                                 <div class='section2_content section2_content3' style="background-image: url(./image/main/section2/3.jpg)">
                                     <div class='bg bg3'></div>
-                                    <i class="far fa-times-circle"></i>
                                     <i class="far fa-hourglass"></i>
                                     <p>394,200시간<br>아름다운 집념</p>
-                                    <p class="detail detail3">394,200시간은 천혜의 자연환경을 가진 차 재배지로 거듭나기까지 45여 년이라는 오설록의 아름다운 집념의 시간입니다.</p>
+                                    <p class="detail detail3">394,200시간은 천혜의 자연환경을 가진 차 재배지로<br> 거듭나기까지 45여 년이라는 오설록의 아름다운 집념의 시간입니다.</p>
                                 </div>
                                 <div class='section2_content section2_content4' style="background-image: url(./image/main/section2/4.jpg)">
                                     <div class='bg bg4'></div>
-                                    <i class="far fa-times-circle"></i>
                                     <i class="far fa-user-friends"></i>
                                     <p>150여만명<br>티뮤지엄 연간 관람객</p>
-                                    <p class="detail detail4">티뮤지엄 개관이래 연간 방문객 수는 점차 증가하여 2015년 기준 연간 방문객 수는 150여만 명이 되었습니다.</p>
+                                    <p class="detail detail4">티뮤지엄 개관이래 연간 방문객 수는 점차 증가하여<br> 2015년 기준 연간 방문객 수는 150여만 명이 되었습니다.</p>
                                 </div>
                                 <div class='section2_content section2_content5' style="background-image: url(./image/main/section2/5.jpg)">
                                     <div class='bg bg5'></div>
-                                    <i class="far fa-times-circle"></i>
                                     <i class="far fa-coffee"></i>
                                     <p>60초<br>차를 기다리는 잠깐의 여유</p>
-                                    <p class="detail detail5">차를 재배하는 데에도 시간과 정성이 필요하지만 차를 우려내는 시간과 정성에 따라서도 차의 맛과 향은 달라집니다.</p>
+                                    <p class="detail detail5">차를 재배하는 데에도 시간과 정성이 필요하지만<br> 차를 우려내는 시간과 정성에 따라서도 차의 맛과 향은 달라집니다.</p>
                                 </div>
                                 <div class='section2_content section2_content6' style="background-image: url(./image/main/section2/6.jpg)">
                                     <div class='bg bg6'></div>
-                                    <i class="far fa-times-circle"></i>
                                     <i class="fal fa-raindrops"></i>
                                     <p>연평균 해무 발생일수 25일<br>지혜롭게 거리두기</p>
                                     <p class="detail detail6">바다로 둘러싸인 제주는 연간 안개 발생일수가 25일로 녹차나무에 자연 차광 효과를 주어<br> 여린 잎 본연의 맛과 색을 살려서 최고 품질의 녹차를 탄생시킵니다.</p>
                                 </div>
                                 <div class='section2_content section2_content7' style="background-image: url(./image/main/section2/7.jpg)">
                                     <div class='bg bg7'></div>
-                                    <i class="far fa-times-circle"></i>
                                     <i class="fas fa-wind"></i>
                                     <p>연평균 초속 4~7m<br>바람의 섬</p>
-                                    <p class="detail detail7">연평균 초속 4~7m의 거센 바람이 불어와 뿌리의 수분 흡수를 증가시켜 녹차의 향기를 짙게 만듭니다.</p>
+                                    <p class="detail detail7">연평균 초속 4~7m의 거센 바람이 불어와 뿌리의 수분 흡수를<br> 증가시켜 녹차의 향기를 짙게 만듭니다.</p>
                                 </div>
                                 <div class='section2_content section2_content8' style="background-image: url(./image/main/section2/8.jpg)">
                                     <div class='bg bg8'></div>
-                                    <i class="far fa-times-circle"></i>
                                     <i class="far fa-sun"></i>
                                     <p>연평균 기온 16도<br>명품 녹차 탄생 온도</p>
-                                    <p class="detail detail8">연평균 16ºC 인 제주에서 오설록의 녹차는 사계절 내내 따뜻한 빛을 품고 자라 최고의 명품녹차로 자라게 됩니다.</p>
+                                    <p class="detail detail8">연평균 16ºC 인 제주에서 오설록의 녹차는 사계절 내내 따뜻한 빛을<br> 품고 자라 최고의 명품녹차로 자라게 됩니다.</p>
                                 </div>
                                 <div class='section2_content section2_content9' style="background-image: url(./image/main/section2/9.jpg)">
                                     <div class='bg bg9'></div>
-                                    <i class="far fa-times-circle"></i>
                                     <i class="far fa-mountains"></i>
                                     <p>200m<br>오설록 차밭의 해발 높이</p>
-                                    <p class="detail detail9">해발 200미터에 자리잡고 있는 오설록 차밭은 낮에는 습도가 높은 더운 바닷바람이 바다에서 산으로 불고,<br> 밤에는 습도가 낮고 시원한 산바람이 산에서 바다로 불어와 녹차의 향기를 더욱 짙게 만들어 줍니다.</p>
+                                    <p class="detail detail9">해발 200미터에 자리잡고 있는 오설록 차밭은 낮에는 습도가<br> 높은 더운 바닷바람이 바다에서 산으로 불고,<br> 밤에는 습도가 낮고 시원한 산바람이 산에서 바다로 불어와 녹차의 향기를 더욱 짙게 만들어 줍니다.</p>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +204,17 @@
                         </div>
                     </div>
                     <div id='section4'>
-                        <div class='wrap wrap4'></div>
+                        <div class='wrap wrap4'>
+                            <svg class='section4_video'>
+                                <mask id="svgmask4">
+                                    <rect class='test5' id='test55' style="fill:#ffffff;" />
+                                    <rect class='test6' style="fill:#ffffff;" />
+                                    <rect class='test7' style="fill:#ffffff;" />
+                                    <rect class='test8' style="fill:#ffffff;" />
+                                  </mask>
+                                <image xlink:href='./image/main/bg2.gif' mask="url(#svgmask4)"></image>
+                            </svg>
+                        </div>
                     </div>
               </div>
             </div>
@@ -221,6 +225,24 @@
             <canvas class="circle" id='circle' width="200" height="200">
                 
             </canvas>
+            <canvas class="circle2" id='circle2' width="200" height="200">
+                
+            </canvas>
+            <canvas class="circle3" id='circle3' width="200" height="200">
+                
+            </canvas>
         </div>
+        <script>
+            // function init(){
+            //     window.onmousewheel =function(e){
+            //         if(e.wheelDelta === -120){
+            //             console.log('wheel down');
+            //         } else {
+            //             console.log('wheel up')
+            //         }
+            //     }
+            // }
+            // init();
+        </script>
 </body>
 </html>

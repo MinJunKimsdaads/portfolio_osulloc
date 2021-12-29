@@ -154,7 +154,7 @@ section3img3.addEventListener('mousemove',function (e) {
     ctx.arc(100,100,90,0,2*Math.PI);
     ctx.strokeStyle='rgba(244,244,244,1)'
     ctx.lineWidth='0.5px';
-    ctx.font = '30px sans-serif';
+    ctx.font = 'normal 30px sans-serif';
     ctx.fillStyle = 'rgba(244,244,244,1)';
     ctx.textAlign = "center";
     ctx.fillText('more',100,100);
