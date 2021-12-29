@@ -15,7 +15,7 @@ window.addEventListener('scroll',function(){
     // console.log(section4.getBoundingClientRect().left)
     let test5=document.getElementById('test5')
     if(section4.getBoundingClientRect().left<=0){
-        alert('가로스크롤 시 위치값 반환 확인')
+        // alert('가로스크롤 시 위치값 반환 확인')
     }
 });
 
