@@ -1,13 +1,13 @@
 $('#menubtn').click(
     function(){
     var ss = $('#container').find('.menu');
-    if(ss.height()==0){
-        $('.menu').stop().animate({height:'100%'}, 1000);
-        $('#menubtn').text('ClOSE');
-        // $('#menubtn').css('color','white');
-    } else{
-        $('.menu').stop().animate({height:'0%'}, 1000);
-        $('#menubtn').text('MENU');
-        // $('#menubtn').css('color','black');
-    }
+    $('.menu').css('opacity','1');
+    $('.menu').stop().animate({height:'100%'}, 1000);
+})
+
+$('#mymenubtn').click(
+    function(){
+    var dd = $('#container').find('.menu');
+    $('.menu').css('opacity','0');
+    $('.menu').stop().animate({height:'0'}, 1000);
 })
