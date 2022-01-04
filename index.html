@@ -221,7 +221,11 @@
                                             </p>
                                         </div>
                                     </div>
+                                    <div class='content_title content1_title'>
+                                        일구다
+                                    </div>
                                 </div>
+
                                 <div class='section3_menu section3_menu1'>
                                     <div class='section3_menu_description section3_menu_description1'>
                                         <p>일</p>
@@ -254,6 +258,9 @@
                                                 즉 전통을 유지하되 시대의 흐름을 받아들이는 오설록의 자세입니다.<br><br>
                                             </p>
                                         </div>
+                                    </div>
+                                    <div class='content_title content2_title'>
+                                        가꾸다
                                     </div>
                                 </div>
 
@@ -290,6 +297,9 @@
                                             </p>
                                         </div>
                                     </div>
+                                    <div class='content_title content3_title'>
+                                        즐기다
+                                    </div>
                                 </div>
 
                                 <div class='section3_menu section3_menu3'>
@@ -309,10 +319,12 @@
                                     <h1>오설록 차밭 이야기</h1>
                                     <p>Terroir Story</p>
                                 </div>
-                                <div id='teaground_arrow'>
-                                    <i class="fas fa-angle-double-down"></i>
+                                <div id='teaground_description'>
+                                        제주는 엄청난 생명력을 가진, 2100여종의 식물자원이 분포하는 생태계 보고입니다.<br><br>
+                                        이러한 제주는 화산지역이라는 생태계적 특성을 가져 차 품질의 특이성을 만들어 냅니다.<br><br>
+                                        오설록의 차밭은 지리적 특성에 따라서 차의 특색이 조금씩 달라집니다.<br><br>
+                                        이러한 개성을 지닌 오설록 3대 차밭의 찻잎들이 조화롭게 어우러져 오설록의 명차는 색(色), 향(香), 미(味)가 뛰어납니다.   
                                 </div>
-                                <div id='teaground_description'></div>
                             </div>
                         </div>
                     </div>
@@ -321,9 +333,9 @@
                             <svg class='section4_video'>
                                 <mask id="svgmask4">
                                     <rect class='test5' id='test55' style="fill:#ffffff;" />
-                                    <rect class='test6' style="fill:#ffffff;" />
-                                    <rect class='test7' style="fill:#ffffff;" />
-                                    <rect class='test8' style="fill:#ffffff;" />
+                                    <rect class='test6' id='test66' style="fill:#ffffff;" />
+                                    <rect class='test7' id='test77' style="fill:#ffffff;" />
+                                    <rect class='test8' id='test88' style="fill:#ffffff;" />
                                   </mask>
                                 <image xlink:href='./image/main/bg2.gif' mask="url(#svgmask4)"></image>
                             </svg>
@@ -336,13 +348,86 @@
                 <div id='btnbox'>
                     <div id='mymenubtn'>Close</div>
                 </div>
+                <div id='titlebox'>
+                    <div id='menubox'>
+                        <div>
+                            <span>숫</span>
+                            <span>자</span>
+                            <span>로</span>
+                            <br>
+                            <span>보</span>
+                            <span>는</span>
+                            <br>
+                            <span>오</span>
+                            <span>설</span>
+                            <span>록.</span>
+                        </div>
+                        <div>
+                            <span>일</span>
+                            <span>구</span>
+                            <span>다,</span>
+                            <br>
+                            <span>가</span>
+                            <span>꾸</span>
+                            <span>다,</span>
+                            <br>
+                            <span>즐</span>
+                            <span>기</span>
+                            <span>다.</span>
+                        </div>
+                        <div>
+                            <span>오</span>
+                            <span>설</span>
+                            <span>록</span>
+                            <br>
+                            <span>차</span>
+                            <span>밭</span>
+                            <br>
+                            <span>이</span>
+                            <span>야</span>
+                            <span>기.</span>
+                        </div>
+                        <div>
+                            <span>티</span>
+                            <span>하</span>
+                            <span>우</span>
+                            <span>스</span>
+                            <span>메</span>
+                            <span>뉴.</span>
+                        </div>
+                    </div>
+                    <div id='infobox'>
+                        <div>
+                            <h3>고객상담센터 주문/배송문의</h3>
+                            <h1>080-805-5555</h1>
+                            <h3>평일 09:30 - 17:00 (점심 11:30 - 13:00)</h3>
+                        </div>
+                        <div>
+                            <h3>특판, 대량구매 문의</h3>
+                            <h1>help@osulloc.com</h1>
+                            <h3>카카오톡ID : osullocmall</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            
-            <canvas class="circle" id='circle' width="200" height="200">
-                
-            </canvas>
+            <div class="circle1" id='circle1'>
+                <div id='countnumber'>더 보기</div>
+            </div>
+
+            <div class="circle" id='circle'>
+                <div id='countnumber'>티하우스</div>
+            </div>
         </div>
+        <script>
+             if (!location.hash) { 
+
+                location.hash = '#reload';
+
+                location.href = location.href;
+
+            }
+        </script>
         
 </body>
 </html>
