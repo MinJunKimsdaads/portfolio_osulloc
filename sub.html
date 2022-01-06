@@ -15,7 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.js"
     integrity="sha512-vWutwDjKJo+VMAA7IrS/ICTmVYXRMdqtXA27MSuPxGjkbYnKeUKPrIpfsAwIXCzaSDF/qRy/L85ko/yxW0AIiA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js" integrity="sha512-zMfrMAZYAlNClPKjN+JMuslK/B6sPM09BGvrWlW+cymmPmsUT1xJF3P4kxI3lOh9zypakSgWaTpY6vDJY/3Dig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel='stylesheet' href='./css/common/common.css'>
     <link rel='stylesheet' href='./css/sub/1024px.css'>
 
@@ -23,13 +23,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300&display=swap" rel="stylesheet">
     
-    <script src='./js/sub/intro.js' defer></script>
+    <!-- <script src='./js/sub/intro.js' defer></script> -->
     <script src='./js/sub/menu1.js' defer></script>
 
 
 </head>
 <body>
-    <div id='intro'></div>
+    <!-- <div id='intro'></div> -->
     <div id='wrap'>
         <header>
             <div id='logo'>
@@ -140,10 +140,10 @@
         </section>
         <section id='section2'>
             <div id='menubar'>
-                <div class='menutitle menutitle1'>
+                <div class='menutitle menutitle1' style="color: #74a767;">
                     차향의 방
                 </div>
-                <div class='menutitle menutitle2'>
+                <div class='menutitle menutitle2' onclick="window.open('./test.html','test','location=no, status=no, resizable=no, menubar=no, scrollbars=no, toolbar=no')">
                     다식 공방
                 </div>
                 <div class='menutitle menutitle3'>
@@ -171,11 +171,13 @@
                         <div class='menu1Option menu1Option5'>
                             <img src='./image/sub/menu1Option5.png'>
                         </div>
-                        <!-- <div id='arrow_right' class='arrow'></div>
-                        <div id='arrow_left' class='arrow'></div> -->
                     </div>
-                    <div id='arrow_right' class='arrow'></div>
-                    <div id='arrow_left' class='arrow'></div>
+                    <div id='arrow_right' class='arrow'>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div id='arrow_left' class='arrow'>
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
                 </div>
                 <!-- <div id='menu2'></div>
                 <div id='menu3'></div> -->

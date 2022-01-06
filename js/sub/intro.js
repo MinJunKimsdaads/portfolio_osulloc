@@ -8,5 +8,5 @@ setTimeout(function(){
     setTimeout(function(){
         intro.style.display='none';
         wrap.style.display='block';
-    },1500)
+    },3000)
 },2000)

@@ -16,7 +16,7 @@
     #wrap {
         width: 100vw;
         /* height: 300vh; */
-        display: none;
+        /* display: none; */
         /* position: absolute;
         top: 0;
         left: 0; */
@@ -235,17 +235,18 @@
         width: 100%;
         height: 100vh;
         position: relative;
-        z-index: 0;
+        z-index: 1;
         font-family: 'Arita-dotum-Medium';
-        background-color: pink;
+        background-color: white;
     }
     
     #menubar {
-        width: 75%;
+        width: 900px;
         height: 10%;
         position: absolute;
-        top: 20%;
-        left: 12.5%;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%);
         display: flex;
         flex-wrap: wrap;
         background-color: red;
@@ -257,8 +258,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 40px;
+        font-size: 30px;
         background-color: honeydew;
+    }
+
+    .menutitle:hover {
+        cursor: pointer;
+        color: #74a767;
     }
 
     .menutitle1 {
@@ -270,30 +276,32 @@
     }
 
     #menu {
-        width: 75%;
-        height: 50%;
+        width: 1500px;
+        height: 60%;
         position: absolute;
-        top: 35%;
-        left: 12.5%;
-        background-color: blue;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%);
+        /* background-color: blue; */
     }
 
     #menu1 {
-        width: 100%;
+        width: 900px;
         height: 100%;
         position: relative;
         top: 0;
-        left: 0;
+        left: 50%;
+        transform: translate(-50%);
         overflow: hidden;
-        background-color: aqua
+        /* background-color: aqua */
     }
 
     #menu1 #menu1Case {
-        width: 25%;
+        width: 300px;
         height: 100%;
         position: absolute;
         top: 0;
-        left: 37.5%;
+        left: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -301,49 +309,77 @@
     }
 
     #menu1 #menu1Case img {
-        width: 60%;
+        width: 90%;
         height: 90%;
     }
 
     #menu1 #menu1OptionList {
-        width: 100%;
+        width: 1500px;
         height: 100%;
         position: absolute;
         top: 0;
-        left: 0;
-        display: flex;
-        overflow: hidden;
+        left: -300px
+        /* transform: translate(-50%); */
+        /* float: left; */
+        /* overflow: hidden; */
         /* background-color: yellow; */
     }
 
     #menu1OptionList .menu1Option {
-        width: 25%;
+        width: 300px;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
+        float: left;
+        /* overflow: hidden; */
     }
 
-    .menu1Option img {
-        width: 60%;
-        height: 70%;
+    .menu1Option:nth-child(3) img {
+        width: 70%;
+        height: 75%;
+    }
+
+    .menu1Option:nth-child(1) img {
+        width: 30%;
+        height: 35%;
+    }
+    .menu1Option:nth-child(2) img {
+        width: 30%;
+        height: 35%;
+    }
+    .menu1Option:nth-child(4) img {
+        width: 30%;
+        height: 35%;
+    }
+    .menu1Option:nth-child(5) img {
+        width: 30%;
+        height: 35%;
     }
 
     .arrow {
-        width: 3%;
+        width: 7%;
         height: 10%;
         position: absolute;
         top: 45%;
-        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        /* background-color: black; */
     }
 
     #arrow_right {
-        left: 97%;
+        left: 93%;
     }
 
     #arrow_left {
         left: 0;
+    }
+
+    .arrow:hover {
+        cursor: pointer;
+        color: #74a767;
     }
 
     #menu2 {
