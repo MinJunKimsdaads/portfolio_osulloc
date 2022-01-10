@@ -1,5 +1,4 @@
-@media (min-width:1024px) {
-    #container {
+#container {
         width: 100vw;
         height: 100vh;
         position: relative;
@@ -824,6 +823,10 @@
         font-family: 'Arita-dotum-Medium';
     }
 
+    #titlebox #menubox div:hover {
+        cursor: pointer;
+    }
+
     #titlebox #menubox div span {
         width: 30%;
         height: 10%;
@@ -906,4 +909,3 @@
         font-family: 'Arita-dotum-Medium';
         color: white;
     }
-}

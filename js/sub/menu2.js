@@ -2,6 +2,7 @@ $('.menutitle2').click(function(){
     $('#menu2').css('display','block');
     $('#menu1').css('display','none');
     $('#menu3').css('display','none');
+    $('#menu').removeClass('menubg')
     $('.menutitle2').css('color','#74a767');
     $('.menutitle1').css('color','black');
     $('.menutitle3').css('color','black');
@@ -34,6 +35,7 @@ $('.menu2btn2').click(function(){
         $('#menu2title p').css('marginTop','0');
         $('#menu2title p').css('opacity','1');
     })
+    $()
     $('#menu2des p').stop().animate({marginTop:'70px',opacity:'0'},900,function(){
         $('#menu2des p').html('북촌 한옥의 대표 볼거리인 "기와"를<br>형상화한 겉은 바삭하고 속은 쫀득한 녹차 와플');
         $('#menu2des p').css('marginTop','0');

@@ -2,6 +2,7 @@ $('.menutitle1').click(function(){
     $('#menu1').css('display','block');
     $('#menu2').css('display','none');
     $('#menu3').css('display','none');
+    $('#menu').addClass('menubg')
     $('.menutitle1').css('color','#74a767');
     $('.menutitle2').css('color','black');
     $('.menutitle3').css('color','black');
